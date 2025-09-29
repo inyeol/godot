@@ -386,3 +386,10 @@ $RECYCLE.BIN/
 *.msp
 *.lnk
 *.generated.props
+
+
+# LimboAI-specific
+demo/addons/
+demo/script_templates/
+icons/*.import
+godot-cpp
