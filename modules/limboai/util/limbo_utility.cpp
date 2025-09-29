@@ -26,7 +26,7 @@
 #include "core/os/os.h"
 
 #ifdef TOOLS_ENABLED
-#include "editor/editor_node.h"
+#include "../../../editor/editor_node.h"
 #endif // TOOLS_ENABLED
 
 #endif // ! LIMBOAI_MODULE

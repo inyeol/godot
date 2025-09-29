@@ -1,0 +1,2 @@
+﻿53470
+C:/Users/Windows 11/OneDrive/문서/godot/bin/godot.windows.editor.x86_64.mono.exe

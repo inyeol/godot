@@ -19,7 +19,7 @@
 #ifdef LIMBOAI_MODULE
 #include "scene/main/node.h"
 #ifdef TOOLS_ENABLED
-#include "editor/inspector/editor_inspector.h"
+#include "../../../editor/editor_inspector.h"
 #endif // TOOLS_ENABLED
 #endif // LIMBOAI_MODULE
 
