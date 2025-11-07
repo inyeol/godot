@@ -292,7 +292,7 @@ public:
 #ifdef LIMBOAI_MODULE
 	bool has_main_screen() const override { return true; }
 
-	virtual String get_plugin_name() const override { return "LimboAI"; }
+	virtual String get_plugin_name() const override { return "AIEditor"; }
 	virtual void make_visible(bool p_visible) override;
 	virtual void edit(Object *p_object) override;
 	virtual bool handles(Object *p_object) const override;
@@ -303,7 +303,7 @@ public:
 #elif LIMBOAI_GDEXTENSION
 	bool _has_main_screen() const override { return true; }
 
-	virtual String _get_plugin_name() const override { return "LimboAI"; }
+	virtual String _get_plugin_name() const override { return "AIEditor"; }
 	virtual void _make_visible(bool p_visible) override;
 	virtual void _edit(Object *p_object) override;
 	virtual bool _handles(Object *p_object) const override;
